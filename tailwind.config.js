@@ -2,7 +2,23 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    screens: {
+      sm: "640px",
+      smd: "700px",
+      md: "768px",
+      mmd: "840px",
+      mmmd: "940px",
+      mmmmd: "980px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+    },
+    extend: {
+      fontFamily: {
+        monts: ["Montserrat", "sans-serif"],
+        explora: ["Explora", "cursive"],
+      },
+    },
   },
   plugins: [],
 };
