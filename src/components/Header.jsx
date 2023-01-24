@@ -13,9 +13,9 @@ const Header = () => {
         <h1 className="font-explora text-5xl font-semibold">Tharun</h1>
         <button
           onClick={() => modalHandler(true)}
-          className="text-4xl bg-[#1f1f1f] sm:bg-[#fefde9] px-[6px] text-[#fefde9] opacity-95 sm:text-[#1f1f1f] rounded-lg"
+          className=" bg-[#1f1f1f] sm:bg-[#fefde9] text-[#fefde9] opacity-95 sm:text-[#1f1f1f] rounded-lg"
         >
-          <span className="block opacity-70 -mt-[2px] transition-all duration-300 hover:opacity-100">
+          <span className="block opacity-50 transition-all duration-300 hover:opacity-100 text-[1.7rem] -py-[1px] px-[4px]">
             ⌘
           </span>
         </button>

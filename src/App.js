@@ -1,5 +1,6 @@
 import React, { lazy, Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
+import LoadingSpinner from "./components/LoadingSpinner";
 
 const Header = lazy(() => import("./components/Header"));
 const Main = lazy(() => import("./components/Main"));
@@ -9,7 +10,7 @@ const Error = lazy(() => import("./components/Error"));
 
 function App() {
   return (
-    <Suspense fallback={<h1>Loading</h1>}>
+    <Suspense fallback={<LoadingSpinner />}>
       <Routes>
         <Route
           path="/"
