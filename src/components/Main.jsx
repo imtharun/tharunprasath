@@ -10,6 +10,7 @@ import Me from "./../assets/tharun.png";
 import Bg from "./../assets/bg.svg";
 import Resume from "./../assets/resume/tharunprasath.pdf";
 import Hi from "./../assets/gif/Hi.gif";
+import Typewriter from "typewriter-effect";
 
 const Main = () => {
   useEffect(() => {
@@ -18,6 +19,7 @@ const Main = () => {
 
   return (
     <section className="h-[90vh] font-monts flex flex-col justify-around ">
+      {/* <p className="absolute text-[13rem] italic opacity-20 right-3">Home</p> */}
       <aside className="flex flex-row">
         {/* Left */}
         <div className="sm:w-[50%] h-full sm:px-10 sm:py-12 px-5 py-7">
@@ -35,8 +37,24 @@ const Main = () => {
             currently learning mobile development. I am a hardworking individual
             and always eager to learn new technologies.
           </p>
+          <div className="flex mt-1 text-gray-500 font-medium text-sm items-center">
+            <p className="mr-2">You can talk with me about</p>
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+                  .typeString("ReactJS")
+                  .pauseFor(1000)
+                  .deleteAll()
+                  .typeString("TailwindCSS")
+                  .pauseFor(1000)
+                  .deleteAll()
+                  .typeString("Javascript")
+                  .start();
+              }}
+            />
+          </div>
           <a href={Resume} target="_blank" rel="noopener noreferrer">
-            <button className="flex text-sm justify-center items-center mt-4 border-b-[1.5px] border-transparent hover:border-b-[#1f1f1f] font-medium transition-colors duration-300 opacity-70 hover:opacity-100">
+            <button className="flex text-sm justify-center items-center mt-2 border-b-[1.5px] border-transparent hover:border-b-dark font-medium transition-colors duration-300 opacity-70 hover:opacity-100">
               Download CV <DownloadIcon className="pl-2 w-5 " />
             </button>
           </a>
@@ -71,21 +89,21 @@ const Main = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <EnvelopeClosedIcon className="sm:text-[#fefde9] opacity-50 hover:opacity-100 mr-6 w-6 h-6 transition-all duration-300 cursor-pointer" />
+            <EnvelopeClosedIcon className="sm:text-light opacity-50 hover:opacity-100 mr-6 w-6 h-6 transition-all duration-300 cursor-pointer" />
           </a>
           <a
             href="https://www.github.com/imtharun"
             target="_blank"
             rel="noreferrer"
           >
-            <GitHubLogoIcon className="sm:text-[#fefde9] opacity-50 hover:opacity-100 mr-6 w-6 h-6 transition-all duration-300 cursor-pointer" />
+            <GitHubLogoIcon className="sm:text-light opacity-50 hover:opacity-100 mr-6 w-6 h-6 transition-all duration-300 cursor-pointer" />
           </a>
           <a
             href="https://www.linkedin.com/in/imtharun/"
             target="_blank"
             rel="noreferrer"
           >
-            <LinkedInLogoIcon className="sm:text-[#fefde9] opacity-50 hover:opacity-100 w-6 h-6 transition-all duration-300 cursor-pointer" />
+            <LinkedInLogoIcon className="sm:text-light opacity-50 hover:opacity-100 w-6 h-6 transition-all duration-300 cursor-pointer" />
           </a>
         </div>
       </aside>

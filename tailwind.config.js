@@ -17,6 +17,10 @@ module.exports = {
       "2xl": "1536px",
     },
     extend: {
+      colors: {
+        light: "#fefde9",
+        dark: "#1f1f1f",
+      },
       fontFamily: {
         monts: ["Montserrat", "sans-serif"],
         explora: ["Explora", "cursive"],

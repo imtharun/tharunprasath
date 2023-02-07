@@ -16,7 +16,7 @@ function App() {
           path="/"
           element={
             <main className="relative min-h-screen  gradient">
-              <Header />
+              <Header screen="home" />
               <Main />
             </main>
           }
@@ -24,8 +24,8 @@ function App() {
         <Route
           path="/skills"
           element={
-            <main className="relative min-h-screen  gradient">
-              <Header />
+            <main className="relative min-h-screen bg-light">
+              <Header screen="others" />
               <Skills />
             </main>
           }
@@ -33,8 +33,8 @@ function App() {
         <Route
           path="/projects"
           element={
-            <main className="relative min-h-screen  gradient">
-              <Header />
+            <main className="relative min-h-screen bg-light">
+              <Header screen="others" />
               <Projects />
             </main>
           }

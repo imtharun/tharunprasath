@@ -5,7 +5,12 @@ const Skills = () => {
     document.title = "Skills / Tharunprasath";
   }, []);
 
-  return <div>Skills</div>;
+  return (
+    <section>
+      <div></div>
+      <div></div>
+    </section>
+  );
 };
 
 export default Skills;
