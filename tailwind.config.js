@@ -19,7 +19,7 @@ module.exports = {
     extend: {
       colors: {
         light: "#fefde9",
-        dark: "#1f1f1f",
+        dark: "#343341",
       },
       fontFamily: {
         monts: ["Montserrat", "sans-serif"],

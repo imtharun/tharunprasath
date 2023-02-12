@@ -17,7 +17,7 @@ const Header = (props) => {
             ${
               props.screen === "others"
                 ? "sm:bg-dark sm:text-light"
-                : "sm:bg-light sm:tex-dart"
+                : "sm:bg-light sm:text-dark"
             }
             text-light 
             opacity-95

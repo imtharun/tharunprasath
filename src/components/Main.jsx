@@ -18,7 +18,7 @@ const Main = () => {
   }, []);
 
   return (
-    <section className="h-[90vh] font-monts flex flex-col justify-around ">
+    <section className="text-dark h-[90vh] font-monts flex flex-col justify-around ">
       {/* <p className="absolute text-[13rem] italic opacity-20 right-3">Home</p> */}
       <aside className="flex flex-row">
         {/* Left */}
