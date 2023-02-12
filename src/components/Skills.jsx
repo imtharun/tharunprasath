@@ -33,9 +33,12 @@ const Skills = () => {
       <div className="p-1 mt-4 sm:w-[70%] text-dark">
         <p className="text-md ml-9 sm:ml-10">Tools and Tech I use,</p>
         <div className="p-3 pb-2 flex flex-col justify-center items-center sm:grid sm:grid-flow-col sm:grid-cols-2 sm:grid-rows-5 sm:place-items-center">
-          {items.map((ele) => {
+          {items.map((ele, index) => {
             return (
-              <div className="my-2 flex justify-around items-center w-full">
+              <div
+                key={index + 1}
+                className="my-2 flex justify-around items-center w-full"
+              >
                 <div className="flex items-center text-gray-400 flex-col">
                   <img
                     className="w-[45px] h-[45px]"
@@ -98,9 +101,8 @@ const Cards = (props) => {
         return (
           <div
             key={index}
-            className={`${
-              index === 0 ? "mt-2" : "my-3"
-            } text-light bg-dark sm:bg-light sm:text-dark p-4 rounded-md transition-all duration-300 hover:scale-105`}
+            className={`${index === 0 ? "mt-3" : "my-3"}
+            cursor-pointer text-light bg-dark sm:bg-light sm:text-dark p-3 rounded-md transition-all duration-300 hover:scale-[1.05]`}
           >
             <h1>{item.title}</h1>
             <p className="text-xs ">{item.description}</p>
