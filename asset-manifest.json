@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/tharunprasath.github.io/static/css/main.8bd4cb11.css",
+    "main.js": "/tharunprasath.github.io/static/js/main.1e0137fc.js",
+    "static/js/533.a9a42d49.chunk.js": "/tharunprasath.github.io/static/js/533.a9a42d49.chunk.js",
+    "static/js/149.3c9cb06f.chunk.js": "/tharunprasath.github.io/static/js/149.3c9cb06f.chunk.js",
+    "static/js/317.1c828108.chunk.js": "/tharunprasath.github.io/static/js/317.1c828108.chunk.js",
+    "static/js/650.30c14342.chunk.js": "/tharunprasath.github.io/static/js/650.30c14342.chunk.js",
+    "static/js/784.44f32ac7.chunk.js": "/tharunprasath.github.io/static/js/784.44f32ac7.chunk.js",
+    "static/js/928.05316d68.chunk.js": "/tharunprasath.github.io/static/js/928.05316d68.chunk.js",
+    "static/js/165.a3287102.chunk.js": "/tharunprasath.github.io/static/js/165.a3287102.chunk.js",
+    "static/media/tharun.png": "/tharunprasath.github.io/static/media/tharun.cc150540939b16df2d7e.png",
+    "static/media/tharunprasath.pdf": "/tharunprasath.github.io/static/media/tharunprasath.95afee7a8d57604e9cf2.pdf",
+    "static/media/Hi.gif": "/tharunprasath.github.io/static/media/Hi.d93720933c608f6178fb.gif",
+    "static/media/error.svg": "/tharunprasath.github.io/static/media/error.f5b5f4815b88f5f661e3.svg",
+    "static/media/express.svg": "/tharunprasath.github.io/static/media/express.7e85c5130978e3593e65a44112bc7390.svg",
+    "static/media/react.svg": "/tharunprasath.github.io/static/media/react.e27571eaed899c642345e71163624ef9.svg",
+    "static/media/github-icon.svg": "/tharunprasath.github.io/static/media/github-icon.04ed74f38b41cdcbf14f80ae8cd0aa2b.svg",
+    "static/media/nodejs-icon.svg": "/tharunprasath.github.io/static/media/nodejs-icon.3dc364b8e9beb3561620274aea4f0844.svg",
+    "static/media/java.svg": "/tharunprasath.github.io/static/media/java.83165dfb2f5a7657ce4c73e0ba3cef32.svg",
+    "static/media/git-icon.svg": "/tharunprasath.github.io/static/media/git-icon.fd381642a8b14fec88b8d6df1ff25220.svg",
+    "static/media/javascript.svg": "/tharunprasath.github.io/static/media/javascript.fd46ca41839433d73577989d86eb2fe2.svg",
+    "static/media/nextjs-icon.svg": "/tharunprasath.github.io/static/media/nextjs-icon.5ed0382970b88314540093c3ece559a7.svg",
+    "static/media/tailwindcss-icon.svg": "/tharunprasath.github.io/static/media/tailwindcss-icon.50fbcf516b9a3774e9a83272167059ae.svg",
+    "static/media/flutter.svg": "/tharunprasath.github.io/static/media/flutter.1b8f9149e623a24ce67a84d9b25b5d92.svg",
+    "index.html": "/tharunprasath.github.io/index.html",
+    "static/media/bg.svg": "/tharunprasath.github.io/static/media/bg.8c5c68d9a3441176d3c4d409618d61dd.svg",
+    "main.8bd4cb11.css.map": "/tharunprasath.github.io/static/css/main.8bd4cb11.css.map",
+    "main.1e0137fc.js.map": "/tharunprasath.github.io/static/js/main.1e0137fc.js.map",
+    "533.a9a42d49.chunk.js.map": "/tharunprasath.github.io/static/js/533.a9a42d49.chunk.js.map",
+    "149.3c9cb06f.chunk.js.map": "/tharunprasath.github.io/static/js/149.3c9cb06f.chunk.js.map",
+    "317.1c828108.chunk.js.map": "/tharunprasath.github.io/static/js/317.1c828108.chunk.js.map",
+    "650.30c14342.chunk.js.map": "/tharunprasath.github.io/static/js/650.30c14342.chunk.js.map",
+    "784.44f32ac7.chunk.js.map": "/tharunprasath.github.io/static/js/784.44f32ac7.chunk.js.map",
+    "928.05316d68.chunk.js.map": "/tharunprasath.github.io/static/js/928.05316d68.chunk.js.map",
+    "165.a3287102.chunk.js.map": "/tharunprasath.github.io/static/js/165.a3287102.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8bd4cb11.css",
+    "static/js/main.1e0137fc.js"
+  ]
+}
