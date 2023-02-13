@@ -13,7 +13,7 @@ function App() {
     <Suspense fallback={<LoadingSpinner />}>
       <Routes>
         <Route
-          path="/tharunprasath"
+          path="/"
           element={
             <main className="relative min-h-screen gradient">
               <Header screen="home" />
