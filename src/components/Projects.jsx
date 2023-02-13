@@ -1,4 +1,4 @@
-import { ArrowTopRightIcon, Link1Icon, Link2Icon } from "@radix-ui/react-icons";
+import { ArrowTopRightIcon } from "@radix-ui/react-icons";
 import React, { useEffect } from "react";
 import ReactIcon from "./../assets/icons/react.svg";
 import TailwindIcon from "./../assets/icons/tailwindcss-icon.svg";
@@ -37,7 +37,7 @@ const ProjectCard = () => {
     },
   ];
   return (
-    <div className="flex flex-col sm:flex-row p-3 ">
+    <div className="flex flex-col justify-center items-center sm:flex-row p-3 ">
       {items.map((item, index) => {
         return (
           <div
