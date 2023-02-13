@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tharunprasath.github.io/static/css/main.8bd4cb11.css",
-    "main.js": "/tharunprasath.github.io/static/js/main.23cc3118.js",
+    "main.js": "/tharunprasath.github.io/static/js/main.0739296f.js",
     "static/js/533.a9a42d49.chunk.js": "/tharunprasath.github.io/static/js/533.a9a42d49.chunk.js",
     "static/js/149.3c9cb06f.chunk.js": "/tharunprasath.github.io/static/js/149.3c9cb06f.chunk.js",
     "static/js/317.1c828108.chunk.js": "/tharunprasath.github.io/static/js/317.1c828108.chunk.js",
@@ -26,7 +26,7 @@
     "index.html": "/tharunprasath.github.io/index.html",
     "static/media/bg.svg": "/tharunprasath.github.io/static/media/bg.8c5c68d9a3441176d3c4d409618d61dd.svg",
     "main.8bd4cb11.css.map": "/tharunprasath.github.io/static/css/main.8bd4cb11.css.map",
-    "main.23cc3118.js.map": "/tharunprasath.github.io/static/js/main.23cc3118.js.map",
+    "main.0739296f.js.map": "/tharunprasath.github.io/static/js/main.0739296f.js.map",
     "533.a9a42d49.chunk.js.map": "/tharunprasath.github.io/static/js/533.a9a42d49.chunk.js.map",
     "149.3c9cb06f.chunk.js.map": "/tharunprasath.github.io/static/js/149.3c9cb06f.chunk.js.map",
     "317.1c828108.chunk.js.map": "/tharunprasath.github.io/static/js/317.1c828108.chunk.js.map",
@@ -37,6 +37,6 @@
   },
   "entrypoints": [
     "static/css/main.8bd4cb11.css",
-    "static/js/main.23cc3118.js"
+    "static/js/main.0739296f.js"
   ]
 }
