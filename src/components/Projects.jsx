@@ -63,18 +63,22 @@ const ProjectCard = () => {
               </div>
             </div>
             {item.githubLink && (
-              <button className=" hidden group-hover:block absolute text-dark bg-light top-[40%] left-5 z-40  px-3 py-2 rounded-full text-sm">
-                <p className="flex justify-center items-center">
-                  Github <ArrowTopRightIcon />
-                </p>
-              </button>
+              <a href={item?.githubLink} target="_blank" rel="noreferrer">
+                <button className=" hidden group-hover:block absolute text-dark bg-light top-[40%] left-5 z-40  px-3 py-2 rounded-full text-sm">
+                  <p className="flex justify-center items-center">
+                    Github <ArrowTopRightIcon />
+                  </p>
+                </button>
+              </a>
             )}
             {item.demoLink && (
-              <button className="hidden group-hover:block absolute text-dark bg-light top-[40%] right-5 z-40  px-3 py-2 rounded-full text-sm">
-                <p className="flex justify-center items-center">
-                  Demo <ArrowTopRightIcon />
-                </p>
-              </button>
+              <a href={item?.demoLink} target="_blank" rel="noreferrer">
+                <button className="hidden group-hover:block absolute text-dark bg-light top-[40%] right-5 z-40  px-3 py-2 rounded-full text-sm">
+                  <p className="flex justify-center items-center">
+                    Demo <ArrowTopRightIcon />
+                  </p>
+                </button>
+              </a>
             )}
           </div>
         );
