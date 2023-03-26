@@ -15,26 +15,26 @@ const Modal = ({ showModal, modalHandler }) => {
   });
 
   return (
-    <AnimatePresence mode="wait">
-      <motion.div className="transition duration-300 fixed inset-0 overflow-y-auto flex justify-center items-center z-50">
+    <div className="transition duration-300 fixed inset-0 overflow-y-auto flex justify-center items-center z-50">
+      <AnimatePresence mode="wait">
         <motion.div
-          initial={{ opacity: 0, transitionDuration: 1 }}
-          animate={{
-            opacity: 1,
-            transition: {
-              duration: 1,
-            },
-          }}
-          exit={{
-            opacity: 0,
-            transition: {
-              duration: 5,
-            },
-          }}
+          key="backdrop"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
           onClick={() => modalHandler(false)}
           className="fixed inset-0 w-full h-full bg-black bg-opacity-30 backdrop-blur-sm z-[80]"
         ></motion.div>
-        <div className="z-[85] border border-gray-200 bg-white px-5 pt-7 pb-5 rounded-lg m-5 w-[32rem] h-[18rem] overflow-y-scroll">
+      </AnimatePresence>
+
+      <AnimatePresence>
+        <motion.div
+          key="modal"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          className="z-[85] border border-gray-200 bg-white px-5 pt-7 pb-5 rounded-lg m-5 w-[32rem] h-[18rem] overflow-y-scroll"
+        >
           <div>
             <p className="text-gray-500 text-xs">Navigation</p>
             <NavLink
@@ -73,7 +73,7 @@ const Modal = ({ showModal, modalHandler }) => {
               to={"/skills"}
             >
               <GitHubLogoIcon className="w-5 h-5" />
-              <span className="ml-3">Skills</span>
+              <span className="ml-3">GitHub</span>
             </a>
             <a
               onClick={() => modalHandler(false)}
@@ -84,12 +84,12 @@ const Modal = ({ showModal, modalHandler }) => {
               to={"/projects"}
             >
               <LinkedInLogoIcon className="w-5 h-5" />
-              <span className="ml-3">Projects</span>
+              <span className="ml-3">LinkedIn</span>
             </a>
           </div>
-        </div>
-      </motion.div>
-    </AnimatePresence>
+        </motion.div>
+      </AnimatePresence>
+    </div>
   );
 };
 
