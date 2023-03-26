@@ -3,6 +3,7 @@ import Modal from "./Modal";
 
 const Header = (props) => {
   const [showModal, setShowModal] = useState(false);
+
   const modalHandler = (flag = false) => {
     setShowModal(flag);
   };
@@ -27,7 +28,9 @@ const Header = (props) => {
             ⌘
           </span>
         </button>
-        {showModal && <Modal modalHandler={modalHandler} />}
+        {showModal && (
+          <Modal modalHandler={modalHandler} showModal={showModal} />
+        )}
       </div>
     </header>
   );
