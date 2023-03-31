@@ -24,7 +24,7 @@ module.exports = {
       },
       fontFamily: {
         monts: ["Montserrat", "sans-serif"],
-        explora: ["Explora", "cursive"],
+        juliettaMessie: ["Julietta Messie", "cursive"],
       },
     },
   },
