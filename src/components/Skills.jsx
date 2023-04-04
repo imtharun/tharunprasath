@@ -44,7 +44,10 @@ const Skills = () => {
                     key={index + 1}
                     className="my-2 flex justify-around items-center w-full"
                   >
-                    <div className="flex items-center w-[80px] h-[80px] text-gray-400 flex-col">
+                    <div
+                      className="flex items-center w-[80px] h-[80px] text-gray-400 flex-col"
+                      title={ele.name}
+                    >
                       <img
                         className="w-[45px] h-[45px]"
                         src={ele.img}
@@ -52,7 +55,7 @@ const Skills = () => {
                       />
                       <p className="text-sm pt-2">{ele.name}</p>
                     </div>
-                    <div className="w-[60%] p-1 text-start">
+                    <div title="Experience" className="w-[60%] p-1 text-start">
                       <Progress percentage={ele.percentage} />
                     </div>
                   </div>
@@ -110,6 +113,7 @@ const Cards = (props) => {
             key={index + 1}
             className={`${index === 0 ? "mt-3" : "my-3"}
             cursor-pointer text-light bg-dark sm:bg-light sm:text-dark p-3 rounded-md transition-all duration-300 hover:scale-[1.05]`}
+            title={item.title}
           >
             <h1 className="font-medium">{item.title}</h1>
             <p className="text-xs ">{item.description}</p>

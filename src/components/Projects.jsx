@@ -46,6 +46,7 @@ const ProjectCard = () => {
               <div
                 key={index + 1}
                 className={`max-w-[350px] relative group bg-dark text-light p-3 rounded mt-2 ml-2 mr-4`}
+                title={item.title}
               >
                 <div className="z-0 group-hover:opacity-50 transition-all duration-300">
                   <h1 className="font-medium">{item.title}</h1>

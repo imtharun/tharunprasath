@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Modal from "./Modal";
+import { Link } from "react-router-dom";
 
 const Header = (props) => {
   const [showModal, setShowModal] = useState(false);
@@ -11,8 +12,8 @@ const Header = (props) => {
   return (
     <header className="h-[10vh] px-5 py-3 sm:px-10 text-dark">
       <div className="flex justify-between items-center">
-        <h1 className="font-juliettaMessie text-[2.5rem]">
-          {"Tharun"}
+        <h1 className="font-juliettaMessie text-[2.5rem]" title="Tharun">
+          <Link to="/">Tharun</Link>
         </h1>
         <button
           onClick={() => modalHandler(true)}
@@ -25,6 +26,7 @@ const Header = (props) => {
             text-light 
             opacity-95
             rounded-lg`}
+            title="Menu"
         >
           <span className="block opacity-50 transition-all duration-300 hover:opacity-100 text-[1.5rem] px-1">
             ⌘

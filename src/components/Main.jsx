@@ -58,7 +58,12 @@ const Main = () => {
                   }}
                 />
               </div>
-              <a href={Resume} target="_blank" rel="noopener noreferrer">
+              <a
+                href={Resume}
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Download CV"
+              >
                 <button className="flex text-sm justify-center items-center mt-2 border-b-[1.5px] border-transparent hover:border-b-dark font-medium transition-colors duration-300 opacity-70 hover:opacity-100">
                   Download CV <DownloadIcon className="pl-2 w-5 " />
                 </button>
@@ -70,6 +75,7 @@ const Main = () => {
                 className="w-[285px] h-[400px] z-10 rounded-full"
                 src={Me}
                 alt="Tharunprasath"
+                title="Tharunprasath"
               />
               <img
                 className="absolute md:max-w-[450px] md:max-h-[400px] translate-y-16 smd:-top-4 md:-top-6 mmd:-top-12 mmmmd:-top-12 lg:-top-14"
@@ -86,6 +92,7 @@ const Main = () => {
                 className="w-5 h-4 rounded-md ml-2"
                 src={indiaFlag}
                 alt="India"
+                title="Indian Flag"
               />
             </div>
             <div className="flex justify-around items-center">
@@ -93,6 +100,7 @@ const Main = () => {
                 href="mailto:im.tharunprasath@gmail.com"
                 target="_blank"
                 rel="noreferrer"
+                title="Email"
               >
                 <EnvelopeClosedIcon className="sm:text-light opacity-50 hover:opacity-100 mr-6 w-6 h-6 transition-all duration-300 cursor-pointer" />
               </a>
@@ -100,6 +108,7 @@ const Main = () => {
                 href="https://www.github.com/imtharun"
                 target="_blank"
                 rel="noreferrer"
+                title="Github"
               >
                 <GitHubLogoIcon className="sm:text-light opacity-50 hover:opacity-100 mr-6 w-6 h-6 transition-all duration-300 cursor-pointer" />
               </a>
@@ -107,6 +116,7 @@ const Main = () => {
                 href="https://www.linkedin.com/in/imtharun/"
                 target="_blank"
                 rel="noreferrer"
+                title="LinkedIn"
               >
                 <LinkedInLogoIcon className="sm:text-light opacity-50 hover:opacity-100 w-6 h-6 transition-all duration-300 cursor-pointer" />
               </a>
