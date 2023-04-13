@@ -1,14 +1,14 @@
 import React, { useEffect } from "react";
 import ReactIcon from "./../assets/icons/react.svg";
-import NodeIcon from "./../assets/icons/nodejs-icon.svg";
+import NodeIcon from "./../assets/icons/nodejs.svg";
 import JavaIcon from "./../assets/icons/java.svg";
 import ExpressIcon from "./../assets/icons/express.svg";
 import FlutterIcon from "./../assets/icons/flutter.svg";
-import GitIcon from "./../assets/icons/git-icon.svg";
-import GithubIcon from "./../assets/icons/github-icon.svg";
+import GitIcon from "./../assets/icons/git.svg";
+import GithubIcon from "./../assets/icons/github.svg";
 import JavascriptIcon from "./../assets/icons/javascript.svg";
-import NextIcon from "./../assets/icons/nextjs-icon.svg";
-import TailwindcssIcon from "./../assets/icons/tailwindcss-icon.svg";
+import NextIcon from "./../assets/icons/nextjs.svg";
+import TailwindcssIcon from "./../assets/icons/tailwindcss.svg";
 import Transitions from "./Transitions";
 
 const Skills = () => {
@@ -19,14 +19,14 @@ const Skills = () => {
   const items = [
     { name: "React", img: ReactIcon, percentage: "80%" },
     { name: "TailwindCSS", img: TailwindcssIcon, percentage: "80%" },
-    { name: "Javascript", img: JavascriptIcon, percentage: "60%" },
-    { name: "Git", img: GitIcon, percentage: "70%" },
-    { name: "Github", img: GithubIcon, percentage: "70%" },
+    { name: "Javascript", img: JavascriptIcon, percentage: "75%" },
+    { name: "Git", img: GitIcon, percentage: "80%" },
+    { name: "Github", img: GithubIcon, percentage: "80%" },
     { name: "Java", img: JavaIcon, percentage: "80%" },
-    { name: "NextJS", img: NextIcon, percentage: "20%" },
+    { name: "NextJS", img: NextIcon, percentage: "70%" },
     { name: "NodeJS", img: NodeIcon, percentage: "80%" },
-    { name: "Flutter", img: FlutterIcon, percentage: "20%" },
-    { name: "ExpressJS", img: ExpressIcon, percentage: "50%" },
+    { name: "Flutter", img: FlutterIcon, percentage: "50%" },
+    { name: "ExpressJS", img: ExpressIcon, percentage: "70%" },
   ];
 
   return (
