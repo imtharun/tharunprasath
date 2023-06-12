@@ -38,8 +38,7 @@ const Main = () => {
                 <h3 className="mmd:ml-2 mmmd:ml-2 mmmmd:ml-8">Developer 🔮</h3>
               </div>
               <p className="text-gray-500 mt-3 text-sm font-medium">
-                I'm a college student with experience in full stack development
-                and currently learning mobile development. I am a hardworking
+                I'm a college student with experience in full stack development. I'm a hardworking
                 individual and always eager to learn new technologies.
               </p>
               <div className="flex mt-1 text-gray-500 font-medium text-sm items-center">

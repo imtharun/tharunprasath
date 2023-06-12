@@ -8,8 +8,7 @@ import MaterialUiIcon from "./../assets/icons/material-ui.svg";
 import ExpressIcon from "./../assets/icons/express.svg";
 import MongoDBIcon from "./../assets/icons/mongodb.svg";
 import NextJSIcon from "./../assets/icons/nextjs.svg";
-import FlutterIcon from "./../assets/icons/flutter.svg";
-import FirebaseIcon from "./../assets/icons/firebase.svg";
+import AxiosIcon from "./../assets/icons/axios.svg";
 
 const Projects = () => {
   useEffect(() => {
@@ -41,9 +40,10 @@ const ProjectCard = () => {
       demoLink: "",
     },
     {
-      title: "Finanza",
-      description: "An Expense Manager App built using Flutter and firebase.",
-      stacks: [FlutterIcon, FirebaseIcon],
+      title: "MedConnect",
+      description:
+        "An website created for stoke patients to connect with doctors and vice versa.",
+      stacks: [ReactIcon, TailwindIcon, AxiosIcon],
       githubLink:
         "https://github.com/imtharun/Apartment-management-system-dbms",
       demoLink: "",

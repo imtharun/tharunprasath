@@ -3,7 +3,6 @@ import ReactIcon from "./../assets/icons/react.svg";
 import NodeIcon from "./../assets/icons/nodejs.svg";
 import JavaIcon from "./../assets/icons/java.svg";
 import ExpressIcon from "./../assets/icons/express.svg";
-import FlutterIcon from "./../assets/icons/flutter.svg";
 import GitIcon from "./../assets/icons/git.svg";
 import GithubIcon from "./../assets/icons/github.svg";
 import JavascriptIcon from "./../assets/icons/javascript.svg";
@@ -25,7 +24,7 @@ const Skills = () => {
     { name: "Java", img: JavaIcon, percentage: "80%" },
     { name: "NextJS", img: NextIcon, percentage: "70%" },
     { name: "NodeJS", img: NodeIcon, percentage: "80%" },
-    { name: "Flutter", img: FlutterIcon, percentage: "50%" },
+    // { name: "Flutter", img: FlutterIcon, percentage: "50%" },
     { name: "ExpressJS", img: ExpressIcon, percentage: "70%" },
   ];
 
