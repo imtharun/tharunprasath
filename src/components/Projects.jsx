@@ -30,7 +30,7 @@ const ProjectCard = () => {
       description: "Social Hive - A Social Media App for sociopaths!",
       stacks: [ReactIcon, ReduxIcon, MaterialUiIcon, ExpressIcon, MongoDBIcon],
       githubLink: "https://github.com/imtharun/social-hive",
-      demoLink: "",
+      demoLink: "https://social-hive.vercel.app/",
     },
     {
       title: "ContainerZen",
@@ -45,7 +45,7 @@ const ProjectCard = () => {
         "An website created for stoke patients to connect with doctors and vice versa.",
       stacks: [ReactIcon, TailwindIcon, AxiosIcon],
       githubLink:
-        "https://github.com/imtharun/Apartment-management-system-dbms",
+        "https://github.com/imtharun/Website-for-rehabilation-device-of-stoke-patient",
       demoLink: "",
     },
     {

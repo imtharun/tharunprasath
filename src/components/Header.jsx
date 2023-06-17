@@ -28,7 +28,7 @@ const Header = (props) => {
             rounded-lg`}
             title="Menu"
         >
-          <span className="block opacity-50 transition-all duration-300 hover:opacity-100 text-[1.5rem] px-1">
+          <span className="block opacity-50 transition-all duration-300 hover:opacity-100 text-[1.5rem] px-[0.5rem]">
             ⌘
           </span>
         </button>
