@@ -6,7 +6,7 @@ import ExpressIcon from "./../assets/icons/express.svg";
 import GitIcon from "./../assets/icons/git.svg";
 import GithubIcon from "./../assets/icons/github.svg";
 import JavascriptIcon from "./../assets/icons/javascript.svg";
-import NextIcon from "./../assets/icons/nextjs.svg";
+// import NextIcon from "./../assets/icons/nextjs.svg";
 import TailwindcssIcon from "./../assets/icons/tailwindcss.svg";
 import Transitions from "./Transitions";
 
@@ -22,7 +22,7 @@ const Skills = () => {
     { name: "Git", img: GitIcon, percentage: "80%" },
     { name: "Github", img: GithubIcon, percentage: "80%" },
     { name: "Java", img: JavaIcon, percentage: "80%" },
-    { name: "NextJS", img: NextIcon, percentage: "70%" },
+    // { name: "NextJS", img: NextIcon, percentage: "70%" },
     { name: "NodeJS", img: NodeIcon, percentage: "80%" },
     // { name: "Flutter", img: FlutterIcon, percentage: "50%" },
     { name: "ExpressJS", img: ExpressIcon, percentage: "70%" },
